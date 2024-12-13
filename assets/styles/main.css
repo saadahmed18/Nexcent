@@ -171,6 +171,10 @@ header nav ul li .login {
 .hero .container {
   gap: 100px;
 }
+.hero h1 {
+  font-size: var(--h1-size);
+  color: var(--title-color);
+}
 .our-clients ul {
   gap: 100px;
 }
