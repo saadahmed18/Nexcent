@@ -187,3 +187,30 @@ header nav ul li .login {
 .features .features-list .feature img {
   padding-bottom: 15px;
 }
+.business {
+  background-color: var(--bg-alt);
+}
+.business .container {
+  gap: 100px;
+}
+.business .col {
+  justify-content: start;
+  gap: 50px;
+}
+@media (max-width:992px) {
+  .business .col {
+    justify-content: center;
+  }
+}
+.business .col div {
+  gap: 20px;
+}
+.business .col div span:first-child {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 22px;
+  color: var(--title-color);
+}
+.business .col div span:last-child {
+  color: var(--text-color);
+}
