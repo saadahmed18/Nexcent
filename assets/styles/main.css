@@ -52,6 +52,14 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+section {
+  padding: 60px 0;
+}
+@media (min-width: 992px) {
+  .col {
+    width: 45%;
+  }
+}
 .section-title {
   margin-bottom: 20px;
   color: var(--title-color);
@@ -67,6 +75,7 @@ img {
 }
 .btn {
   display: block;
+  width: fit-content;
   padding: 15px;
   border-radius: 4px;
   color: var(--white);
@@ -149,4 +158,10 @@ header nav ul li .login {
     color: var(--white);
     background-color: var(--main-color);
   }
+}
+.hero {
+  background-color: var(--bg-alt);
+}
+.hero .container {
+  gap: 100px;
 }
