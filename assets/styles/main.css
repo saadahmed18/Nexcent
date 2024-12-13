@@ -52,6 +52,9 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+.text-align {
+  text-align: center;
+}
 section {
   padding: 60px 0;
 }
@@ -163,5 +166,8 @@ header nav ul li .login {
   background-color: var(--bg-alt);
 }
 .hero .container {
+  gap: 100px;
+}
+.our-clients ul {
   gap: 100px;
 }
