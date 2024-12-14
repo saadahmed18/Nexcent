@@ -59,7 +59,7 @@ img {
   text-align: center;
 }
 section {
-  padding: 60px 0;
+  padding: var(--section-padding) 0;
 }
 @media (min-width: 992px) {
   .col {
@@ -240,9 +240,9 @@ header nav ul li .login {
 }
 .cards .cards-list {
   gap: 40px;
-  padding-top: 50px;
+  padding: var(--section-padding) 0;
 }
-@media (max-width:1199px) {
+@media (max-width: 1199px) {
   .cards .cards-list {
     gap: 70px;
   }
@@ -272,5 +272,11 @@ header nav ul li .login {
   background-color: transparent;
 }
 .cards .cards-list .card h3 {
-  color: var(--text-color);
+  color: var(--black);
+}
+.offers {
+  background-color: var(--bg-alt);
+}
+.offers .btn {
+  margin: auto;
 }
