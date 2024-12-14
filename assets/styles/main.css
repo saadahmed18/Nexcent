@@ -229,7 +229,6 @@ header nav ul li .login {
     width: 60%;
   }
 }
-.article .col div,
 .article .special-text {
   display: flex;
   align-items: center;
@@ -238,4 +237,40 @@ header nav ul li .login {
 .article .col ul {
   justify-content: start;
   gap: 30px;
+}
+.cards .cards-list {
+  gap: 40px;
+  padding-top: 50px;
+}
+@media (max-width:1199px) {
+  .cards .cards-list {
+    gap: 70px;
+  }
+}
+.cards .cards-list .card {
+  width: 350px;
+  position: relative;
+}
+.cards .cards-list .card .info {
+  width: 310px;
+  padding: 15px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  background-color: var(--bg-alt);
+}
+.cards .cards-list .card .btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  color: var(--main-color);
+  background-color: transparent;
+}
+.cards .cards-list .card h3 {
+  color: var(--text-color);
 }
