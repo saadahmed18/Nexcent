@@ -254,7 +254,7 @@ header nav ul li .login {
   position: relative;
 }
 .cards .cards-list .card .info {
-  width: 310px;
+  width: 90%;
   padding: 15px;
   position: absolute;
   bottom: -50px;
@@ -290,7 +290,7 @@ footer .container {
   gap: 50px;
   align-items: stretch;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   footer .container {
     justify-content: center;
   }
